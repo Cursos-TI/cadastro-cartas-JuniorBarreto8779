@@ -27,7 +27,7 @@ int main(){
     // Preenchimento da carta 1 pelo usuário
     printf("\nVamos preencher as cartas do Super Trunfo\n");
     printf("\n--------------------------------------------\n");
-    printf("Digite o Estado. (Exemplo: RJ / SP / MG / BA");
+    printf("Digite o Estado. (Exemplo: RJ / SP / MG / BA): ");
     scanf("%s", estado1);
     printf("Digite o nome da cidade: ");
     scanf("%s", cidade1);
@@ -47,7 +47,7 @@ int main(){
     // Preenchimento da carta 2 pelo usuário
     printf("\nVamos preencher os dados da carta 2\n");
     printf("\n--------------------------------------------\n");
-    printf("Digite o Estado. (Exemplo: RJ / SP / MG / BA");
+    printf("Digite o Estado. (Exemplo: RJ / SP / MG / BA): ");
     scanf("%s", estado2);
     printf("Digite o nome da cidade: ");
     scanf("%s", cidade2);
@@ -76,8 +76,8 @@ int main(){
     printf("Área da cidade: %.2f\n",area1);
     printf("PIB da Cidade: %.2f\n",PIB1);
     printf("Número de pontos turísticos da cidade: %d\n", pturistico1);
-    printf("A densidade populacional é de %.2f hab/km2",dpop1);
-    printf("PIB per Capita: %.2f", pibc1);
+    printf("A densidade populacional é de %.2f hab/km2\n",dpop1);
+    printf("PIB per Capita: %.2f\n", pibc1);
     printf("\n---------------------------------------------\n");
 
     // Imprimindo a carta 2
@@ -90,8 +90,8 @@ int main(){
     printf("Área da cidade: %.2f\n",area2);
     printf("PIB da Cidade: %.2f\n",PIB2);
     printf("Número de pontos turísticos da cidade: %d\n", pturistico2);
-    printf("A densidade populacional é de %.2f hab/km2",dpop2);
-    printf("PIB per Capita: %.2f", pibc2);
+    printf("A densidade populacional é de %.2f hab/km2\n",dpop2);
+    printf("PIB per Capita: %.2f\n", pibc2);
     printf("\n--------------------------------------------\n");
 
     return 0;
